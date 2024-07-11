@@ -41,7 +41,8 @@ We used [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/ch
 
 ## Models
 
-We used three models - Logistic regression, Decision tree and Random Forest. After comparing perfomance of all three models, we came to a conclusion that with the selected data set the model for prediciting customer churn would be logistic regression.
+We used three models - Logistic regression, Decision tree and Random Forest. After comparing perfomance of all three models, we came to a conclusion that with the selected data set the model for prediciting customer churn would be logistic regression.  
+
 **Main metric** for evaluation we used is Recall. It measures the proportion of actual positives (churning customers) correctly identified by the model. High recall is crucial in churn prediction because missing out on identifying a customer who might churn (a false negative) can be costlier than mistakenly identifying a non-churning customer as at risk (a false positive).
 
 <img src="images/image5.png" alt="Alt text" width="600"/>
