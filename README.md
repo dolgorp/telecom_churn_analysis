@@ -79,42 +79,43 @@ Most important features for the model:
 
 <img src="images/image3.png" alt="Alt text" width="700"/>
 
-## Business Conclusions and Recommendations  
+## Business Conclusions and Recommendations
 
-Our analysis suggests that machine learning models can be used to accurately predict customer churn. We recommend using logistic regression as the main model for this prediction as it showed better performance in comparison to other models (desicion tree and random forest). Main advantages of logistic regression modeling are simplicity and easier interpretability. Introduing new features for analysis might require reevaluationg best model, as logistic regression shows better perfomance with limited number of features.  
+Our analysis suggests that machine learning models can be used to accurately predict customer churn. We recommend using logistic regression as the main model for this prediction as it showed better performance in comparison to other models (desicion tree and random forest). Main advantages of logistic regression modeling are simplicity and easier interpretability. Introduing new features for analysis might require reevaluationg best model, as logistic regression shows better perfomance with limited number of features.
 
-After a thorough analysis, finding the best predictive models and identyfing most importan features, we can propose following business resommendations to lower customer churn:  
+After a thorough analysis, finding the best predictive models and identyfing most importan features, we can propose following business resommendations to lower customer churn:
+
 **1. Customer Service Calls**
-Based on the analysis indicating that the number of customer service calls is correlated to higher churn rates, we suggest that the the company invests in improving customer service experience and quality. The goal is the proactively provide support customers before the issue is escalated. This might include:
-* Invest into developing support materials that customers can easily access, for example short clear illustarted instructions, video materials, FAQ portal, automated service status check.
-* Develop AI enhanced support system, where customers can quickly access the answers and help they need without waiting times and need to contact a live agent.
-* Introduce automated surveying and provide bonuses to stimulate customers give feedback on services. Identify issues with each customers and proactively solve them.  
+Based on the analysis indicating that the number of customer service calls is correlated to higher churn rates. Customers who frequently call cutomer service are more likely to churn. There is no enough data to explore why those customers calls were made, what problems they were addressing and what were the outcomes - if their issues were solves or not. 
+* We suggest collection and analysis of data on customer service calls (reason for call, type of issue, was the issue resolved, customer service experience satisfaction), so we can have a fuller picture of the existing correlation.
+
 
 **2. International plan**
-Customers with an international plan are more likely to churn. After investigating, we found out that for a cost per international minute coscts the same for people with international plan and without. This is our main assumption how international plan affects churn, other factors might include customers frequently travelling abroad and terminating contract every time, customers moving abroad. In general we advise to reassess and restructure the international plan offerings:
-* Differentiate the international plan by offering lower rates per minute or additional benefits such as free international texts or reduced rates for calls to popular destinations. This adds clear value compared to standard rates.  
-* Gather feedback from current international plan users to understand their pain points and expectations, which can help in designing a more attractive plan that addresses their needs.  
-* Develop tailored international plans that benefit international callers, possibly with tiered pricing based on location to provide more flexibility and cost efficiency, e.g. 30 discounted minutes per month to a country of choice.  
 
-**3. Total minutes and total day minutes**. 
-Total minuted has perfect correlation with total charges, so customers with higher total charges are more likely to churn. It's natural for custoer constantly try to reduce their spending. During our analysis we found out that day minutes cost more, compared to other times:
-day: 0.17, evening: 0.085, night: 0.045, international: 0.27  
-Given that daytime minutes are more expensive, we provide following recommendations to address potential churn related to this pricing structure:  
-* Evaluate the feasibility of reducing the rates for daytime minutes to make them more competitive or aligned with evening and night rates. This could mitigate the financial burden on customers who primarily use their phones during the day.  
-* Introduce more flexible pricing plans that allow customers to choose or customize their peak hours according to their usage patterns. This personalization can enhance customer satisfaction and loyalty.  
-* Give discounts for customer loyalty to prevent customers churning to competitors with time.
-**4. Location**  
-After analysing churt rates by state we indentified states with very high churn rate. Each state has differenct factors that might affect churt rate, like connection quality due to infrastructure or strong competitors on the market who attract our customers. Some recommendation we can give to retain customers in high churn rate states:  
-* Market Research: Invest into local market research. Investigate all competitors locally, their promotions, rate and retention strategies. Analyze how company compares to competitros and try to enhance value proposition.  
-* Infrastructure Improvements: If service quality issues (like network coverage or speed) are contributing to churn, prioritize upgrading infrastructure in these states to improve service quality and customer satisfaction.  
-* Branding localy: Invest into brand perceptions and recognition in the state to promote brand presense.  
+Customers with an active international plan are more likely to churn. After investigating, we found out that for a cost per international minute costs the same for people with international plan and without. This is our main assumption how international plan affects churn, other factors might include customers frequently travelling abroad and terminating contract every time, customers moving abroad. In general we advise to reassess and restructure the international plan offerings:  
+* **Differentiate the international plan** by offering lower rates per minute or additional benefits such as free international texts or reduced rates for calls to popular destinations. This adds clear value compared to standard rates.
+* **Gather feedback** from current international plan users to understand their pain points and expectations, which can help in designing a more attractive plan that addresses their needs. 
+* Develop **tailored international plans** that benefit international callers, possibly with tiered pricing based on location to provide more flexibility and cost efficiency, e.g. 30 discounted minutes per month to a country of choice.
+
+**3. Total minutes and total day minutes**
+
+Customers with high total minutes and total day minutes are more likely to churn. Customers are charged per time they spend on a call, it's natural for customer to constantly try to reduce their spending. During our analysis we found out that day minutes cost more, compared to other times: day: 0.17, evening: 0.085, night: 0.045, international: 0.27.
+Given that daytime minutes are more expensive and affect churn, we suggest the following recommendations to address potential churn related to this pricing structure:
+* Evaluate the feasibility of **reducing the rates for daytime minutes**. This could mitigate the financial burden on customers who primarily use their phones during the day, leading to lower churn rates.
+* Introduce more **flexible pricing plans** that allow customers to choose or customize their peak hours according to their usage patterns. This personalization can enhance customer satisfaction and loyalty.
+
+
+**4. Location**
+
+After analysing churn rates by state we indentified states with very high churn rate. There is no enough data to assume reasons and factors that affect churn rate by location. In this case our recommendations are:
+* **Churn rate reasons by state analysis:** Collect additional data (feedback from customers) on reasons for churn distinguished by states.
 
 ## Data Limitations
 * Data set might be outdated and needs updating
 * The dataset lacks qualitative insights, such as customer satisfaction levels or reasons for customer service calls, which could provide deeper context for churn reasons.  
 
 ## Next Steps
-* Introduce new features for analysis, including internet data usage and data services
+* Introduce new features for analysis, including data usage and data services
 * Include qualitative analysis for a deeper dive into customer feedback
 * Invest into feedback collection and analysis from customers who churned
 
