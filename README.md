@@ -39,6 +39,20 @@ As the main stakeholder, the company will benefit from this analysis by reducing
 
 We used [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset). The dataset contains 3333 rows and 21 columns, giving details on customers' state, account length, area code, phone number, plans, and statistics on service usage such as calls, minutes, and charges across different times of the day, international usage, and customer service interactions, along with churn status.
 
+## Target variable - Churn (0 or 1)
+
+Our target valiable is churn, which reflects if a customer terminated contract(1) or did not(0). Target variable is imbalanced, about 15% is class 1 and 85% is class 0. We used SMOTE techniques to balance the data.
+
+## EDA
+
+In the process of EDA we explored all features, their distributions and their relationship. 
+
+<img src="images/image8.png" alt="Alt text" width="600"/>
+
+For example we were able to distinguish high risk states - the highest churn rates per state.
+
+<img src="images/image9.png" alt="Alt text" width="600"/>
+
 ## Models
 
 We used three models - Logistic regression, Decision tree and Random Forest. After comparing perfomance of all three models, we came to a conclusion that with the selected data set the model for prediciting customer churn would be logistic regression.  
