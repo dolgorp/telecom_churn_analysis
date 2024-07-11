@@ -1,4 +1,4 @@
-# # Predicting customer churn for SyriaTel
+# Predicting customer churn for SyriaTel
 
 This project predicts customer churn in a telecommunication company using machine learning tools to analyze historical data on customer behavior, service usage, and location factors.  
 
@@ -16,7 +16,7 @@ Additionally, predictive analytics in churn prevention allows telecom companies 
 
 Moreover, with the telecom industry being highly competitive, maintaining customer loyalty through effective churn management strategies can provide a significant edge over competitors, as it ensures a stable revenue stream and reduces the volatility of the customer base.  
 
-![Alt text](images/image2.png)
+<img src="images/image2.png" alt="Alt text" width="300"/>
 
 ## Stakeholder
 
@@ -24,7 +24,7 @@ Syriatel is a telecommunications provider, offering mobile services like domesti
 
 As the main stakeholder, the company will benefit from this analysis by reducing customer churn rates, potentially increasing revenues and profits, promoting growth, and enhancing its market position. Improved customer service will also benefit customer satisfaction rates. As the company grows in revenue, profits, customer base, and market share, shareholders will see greater returns on their investments.
 
-**Potential Business Questions:** 
+### **Potential Business Questions:** 
 What were the factors influencing customer churn?
 Which services have the highest impact on customer churn?
 What services do customers with longer tenure have?
@@ -32,7 +32,7 @@ What percentage of customers leave after one month/6 months/1 year?
 Which state has the highest churn rate?
 What is the best model for predicting customer churn?
 
-**Objectives:**
+### **Objectives:**
 identify the key features that determine if a customer is likely to churn
 determine the most suitable model to predict customer churn
 give customer retention recommendations to reduce churn
@@ -45,7 +45,7 @@ We used [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/ch
 
 We used three models - Logistic regression, Decision tree and Random Forest. After comparing perfomance of all three models, we came to a conclusion that with the selected data set the model for prediciting customer churn would be logistic regression.
 
-![Alt text](images/image5.png)
+<img src="images/image5.png" alt="Alt text" width="300"/>
 
 ## Best Model Evaluation
 
@@ -64,7 +64,7 @@ Churn Predictions (Class 1):
 
 **ROC AUC Score:** The model has a ROC AUC score of 0.849, reflecting its excellent capability to distinguish between the churn and non-churn classes. A higher ROC AUC score indicates better model performance in terms of sensitivity (true positive rate) and specificity (true negative rate).
 
-![Alt text](images/image7.png)
+<img src="images/image7.png" alt="Alt text" width="300"/>
 
 **Confusion Matrix Analysis:**
 True Negatives (TN): 455 - Correct non-churn predictions.
@@ -73,11 +73,11 @@ False Negatives (FN): 107 - Churn instances incorrectly predicted as non-churn.
 True Positives (TP): 448 - Correct churn predictions.
 This comprehensive analysis demonstrates that the model effectively completes classification tasks, making it an invaluable asset for pinpointing potential churn customers and facilitating targeted retention strategies.
 
-![Alt text](images/image6.png)
+<img src="images/image6.png" alt="Alt text" width="300"/>
 
 Most important features for the model:
 
-![Alt text](images/image3.png)
+<img src="images/image3.png" alt="Alt text" width="300"/>
 
 ## Business Conclusions and Recommendations  
 
