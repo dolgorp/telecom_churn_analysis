@@ -45,7 +45,7 @@ We used [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/ch
 
 We used three models - Logistic regression, Decision tree and Random Forest. After comparing perfomance of all three models, we came to a conclusion that with the selected data set the model for prediciting customer churn would be logistic regression.
 
-<img src="images/image5.png" alt="Alt text" width="300"/>
+<img src="images/image5.png" alt="Alt text" width="600"/>
 
 ## Best Model Evaluation
 
