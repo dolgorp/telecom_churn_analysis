@@ -16,7 +16,7 @@ Additionally, predictive analytics in churn prevention allows telecom companies 
 
 Moreover, with the telecom industry being highly competitive, maintaining customer loyalty through effective churn management strategies can provide a significant edge over competitors, as it ensures a stable revenue stream and reduces the volatility of the customer base.  
 
-<img src="images/image2.png" alt="Alt text" width="300"/>
+<img src="images/image2.png" alt="Alt text" width="800"/>
 
 ## Stakeholder
 
@@ -64,7 +64,7 @@ Churn Predictions (Class 1):
 
 **ROC AUC Score:** The model has a ROC AUC score of 0.849, reflecting its excellent capability to distinguish between the churn and non-churn classes. A higher ROC AUC score indicates better model performance in terms of sensitivity (true positive rate) and specificity (true negative rate).
 
-<img src="images/image7.png" alt="Alt text" width="300"/>
+<img src="images/image7.png" alt="Alt text" width="700"/>
 
 **Confusion Matrix Analysis:**
 True Negatives (TN): 455 - Correct non-churn predictions.
@@ -73,11 +73,11 @@ False Negatives (FN): 107 - Churn instances incorrectly predicted as non-churn.
 True Positives (TP): 448 - Correct churn predictions.
 This comprehensive analysis demonstrates that the model effectively completes classification tasks, making it an invaluable asset for pinpointing potential churn customers and facilitating targeted retention strategies.
 
-<img src="images/image6.png" alt="Alt text" width="300"/>
+<img src="images/image6.png" alt="Alt text" width="700"/>
 
 Most important features for the model:
 
-<img src="images/image3.png" alt="Alt text" width="300"/>
+<img src="images/image3.png" alt="Alt text" width="700"/>
 
 ## Business Conclusions and Recommendations  
 
