@@ -14,8 +14,6 @@ Studies have shown that even a small reduction in churn can significantly boost 
 
 Additionally, predictive analytics in churn prevention allows telecom companies to identify at-risk customers early on, enabling them to take targeted actions to retain these customers. This proactive approach not only saves money but also improves customer satisfaction and loyalty by addressing their concerns before they lead to defection.  
 
-Moreover, with the telecom industry being highly competitive, maintaining customer loyalty through effective churn management strategies can provide a significant edge over competitors, as it ensures a stable revenue stream and reduces the volatility of the customer base.  
-
 <img src="images/image2.png" alt="Alt text" width="800"/>
 
 ## Stakeholder
@@ -25,17 +23,17 @@ Syriatel is a telecommunications provider, offering mobile services like domesti
 As the main stakeholder, the company will benefit from this analysis by reducing customer churn rates, potentially increasing revenues and profits, promoting growth, and enhancing its market position. Improved customer service will also benefit customer satisfaction rates. As the company grows in revenue, profits, customer base, and market share, shareholders will see greater returns on their investments.
 
 ### **Potential Business Questions:** 
-What were the factors influencing customer churn?
-Which services have the highest impact on customer churn?
-What services do customers with longer tenure have?
-What percentage of customers leave after one month/6 months/1 year?
-Which state has the highest churn rate?
-What is the best model for predicting customer churn?
+* What were the factors influencing customer churn?
+* Which services have the highest impact on customer churn?
+* What services do customers with longer tenure have?
+* What percentage of customers leave after one month/6 months/1 year?
+* Which state has the highest churn rate?
+* What is the best model for predicting customer churn?
 
 ### **Objectives:**
-identify the key features that determine if a customer is likely to churn
-determine the most suitable model to predict customer churn
-give customer retention recommendations to reduce churn
+* identify the key features that determine if a customer is likely to churn
+* determine the most suitable model to predict customer churn
+* give customer retention recommendations to reduce churn
 
 ## Data
 
@@ -44,6 +42,7 @@ We used [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/ch
 ## Models
 
 We used three models - Logistic regression, Decision tree and Random Forest. After comparing perfomance of all three models, we came to a conclusion that with the selected data set the model for prediciting customer churn would be logistic regression.
+**Main metric** for evaluation we used is Recall. It measures the proportion of actual positives (churning customers) correctly identified by the model. High recall is crucial in churn prediction because missing out on identifying a customer who might churn (a false negative) can be costlier than mistakenly identifying a non-churning customer as at risk (a false positive).
 
 <img src="images/image5.png" alt="Alt text" width="600"/>
 
@@ -117,3 +116,5 @@ After analysing churt rates by state we indentified states with very high churn 
 * Introduce new features for analysis, including internet data usage and data services
 * Include qualitative analysis for a deeper dive into customer feedback
 * Invest into feedback collection and analysis from customers who churned
+
+#### Authors: Dolgor Purbueva, Emma Scotson
