@@ -41,12 +41,12 @@ We used [Churn in Telecom's dataset](https://www.kaggle.com/datasets/becksddf/ch
 
 ## Target variable - Churn (0 or 1)
 
-Our target valiable is churn, which reflects if a customer terminated contract(1) or did not(0). Target variable is imbalanced, about 15% is class 1 and 85% is class 0. We used SMOTE techniques to balance the data.
+Our target valiable is churn, which reflects if a customer terminated contract(1) or did not(0). Target variable is imbalanced, about 15% is class 1 and 85% is class 0. We used SMOTE techniques to balance the data.  
 
-True Negatives (TN): Correct non-churn predictions.
-False Positives (FP): Non-churn instances incorrectly predicted as churn.
-False Negatives (FN): Churn instances incorrectly predicted as non-churn.
-True Positives (TP): Correct churn predictions.
+* True Negatives (TN): Correct non-churn predictions.  
+* False Positives (FP): Non-churn instances incorrectly predicted as churn.  
+* False Negatives (FN): Churn instances incorrectly predicted as non-churn.  
+* True Positives (TP): Correct churn predictions.  
 
 ## EDA
 
